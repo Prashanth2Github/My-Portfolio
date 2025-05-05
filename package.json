@@ -6,7 +6,7 @@
   "homepage": "https://Prashanth2Github.github.io/My-Portfolio",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "cd client && npm install && npm run build",
     "lint": "eslint .",
     "predeploy": "cross-env VITE_PLATFORM=gh-pages npm run build",
     "deploy": "gh-pages -d dist",
