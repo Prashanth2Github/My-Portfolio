@@ -16,7 +16,10 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* ✅ Add Node types for Vite and process */
+    "types": ["node"]
   },
   "include": ["vite.config.ts"]
 }

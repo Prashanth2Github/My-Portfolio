@@ -4,14 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://Prashanth2Github.github.io/My-Portfolio",
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "predeploy": "npm run build",
+    "predeploy": "cross-env VITE_PLATFORM=gh-pages npm run build",
     "deploy": "gh-pages -d dist",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "node server/server.js"
   },
   "dependencies": {
     "body-parser": "^2.2.0",
@@ -25,10 +25,12 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
+    "@types/node": "^22.15.3",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.18",
+    "cross-env": "^7.0.3",
     "eslint": "^9.9.1",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.11",
