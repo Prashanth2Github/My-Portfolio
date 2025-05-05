@@ -1,13 +1,15 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// Determine if we're building for production (GitHub Pages)
-const isProd = process.env.NODE_ENV === 'production';
+// https://vitejs.dev/config/
+export default defineConfig(({ command, mode }) => {
+  const isProduction = command === 'build';
 
-export default defineConfig({
-  base: isProd ? '/My-Portfolio/' : '/', // ✅ Use repo name only in production
-  plugins: [react()],
-  optimizeDeps: {
-    exclude: ['lucide-react'],
-  },
+  return {
+    base: isProduction ? '/My-Portfolio/' : '/', // Use repo name only in production
+    plugins: [react()],
+    optimizeDeps: {
+      exclude: ['lucide-react'],
+    },
+  };
 });
