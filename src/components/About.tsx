@@ -95,10 +95,10 @@ const About = () => {
                 <div>
                   <h5 className="font-medium text-gray-900 dark:text-white">Phone</h5>
                   <a 
-                    href="9581758451" 
+                    href="tel:+919581758451" 
                     className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                   >
-                    9581758451
+                    +91 9581758451
                   </a>
                 </div>
               </div>
