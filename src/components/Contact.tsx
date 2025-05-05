@@ -152,7 +152,7 @@ const Contact = () => {
               <h4 className="font-medium text-gray-900 dark:text-white mb-4">Follow Me</h4>
               <div className="flex space-x-4">
                 <a 
-                  href="https://github.com/" 
+                  href="https://github.com/Prashanth2Github" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-3 bg-gray-100 dark:bg-gray-700 rounded-full text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
