@@ -29,7 +29,7 @@ const Projects = () => {
       techStack: ["Python", "LSTM", "MERN Stack", "Machine Learning"],
       image: "https://images.pexels.com/photos/3243/pen-calendar-to-do-checklist.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       icon: <Bell className="w-5 h-5" />,
-      github: "https://github.com/"
+      github: "https://github.com/Prashanth2Github"
     },
     {
       id: 2,
@@ -39,7 +39,7 @@ const Projects = () => {
       image: "https://images.pexels.com/photos/3806288/pexels-photo-3806288.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       icon: <Car className="w-5 h-5" />,
       github: "https://github.com/Prashanth2Github/Vehicle-Rental-System.git",
-      demo: "https://example.com/"
+      demo: "https://github.com/Prashanth2Github/Vehicle-Rental-System.git"
     },
     {
       id: 3,
