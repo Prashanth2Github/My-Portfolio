@@ -26,7 +26,7 @@ const Projects = () => {
       id: 1,
       title: "Smart Deadline Notifier",
       description: "An intelligent system that uses LSTM to predict optimal study schedules based on assignment difficulty and student's past performance patterns. Helps students manage their time efficiently.",
-      techStack: ["Python", "LSTM", "MERN Stack", "Machine Learning"],
+      techStack: ["Python", "LSTM", "MERN Stack"],
       image: "https://images.pexels.com/photos/3243/pen-calendar-to-do-checklist.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       icon: <Bell className="w-5 h-5" />,
       github: "https://github.com/Prashanth2Github"
